@@ -1,0 +1,113 @@
+
+.menu-mt {
+    width: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    position: relative;
+    padding: 0 0 0 4px;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 17px 0 rgba(0,0,0,0.1);
+}
+.menu-mt a, .menu-mt a:link, .menu-mt a:visited, .menu-mt a:focus, span {
+    color: #8e8e8e;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.menu-mt a:hover {
+    color: #000 !important;
+    text-decoration: none;
+}
+.menu-mt > li {
+    display: block;
+    text-align: center;
+    margin-left: -4px;
+    border-left: 1px solid rgba(255, 255, 255, 0.11);
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+.menu-mt > li > a {
+    padding:20px 18px;
+    display: block;
+}
+
+.menu-mt >li >a:after{
+
+    content: "\f054";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+
+}
+.menu-mt > li:hover > a {
+    color: #227087;
+}
+.menu-mt > li:hover {
+    background-color: #fff;
+    border-bottom: 2px solid #d91717;
+}
+/* megadrop-mt width dropdown */
+ .menu-mt > li > .megadrop-mt {
+    display: none;
+    list-style: none;
+    min-height: 100%;
+    padding: 0;
+    z-index: 99;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: -1px 0 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+.menu-mt > li:hover .megadrop-mt {
+    opacity: 1;
+    display: block;
+    margin-top: 0px;
+}
+.menu-mt ul li:hover:after {
+    color: #227087;
+}
+.menu-mt .col {
+    color:white;
+    margin: 0 0 0 2.2%;
+}
+
+.menu-mt .col ul {
+    padding: 0;
+    margin: 0;
+}
+.menu-mt .col ul li {
+    padding: 0;
+    list-style: none;
+    font-size: 11px;
+}
+.menu-mt .col h3 {
+    font-size: 13px;
+    padding: 10px 0;
+    font-weight: bold;
+    margin: 5px 0 5px 0;
+    color: #227087;;
+}
+.menu-mt .col ul li a {
+    display: block;
+    padding: 0 0 15px 0;
+    color: #3c3d3e;
+}
+.menu-mt .col ul li a:hover {
+    color: #111;
+    cursor: pointer;
+}
+.menu-mt > li > ul li ul, .menu-mt li >ul li, .menu-mt > li > .megadrop-mt, .menu-mt > li > ul, .menu-mt > li {
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-outs;
+}
